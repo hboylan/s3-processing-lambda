@@ -1,0 +1,7 @@
+{
+    "inputBucket": "unseenstars",
+    "inputKey": "yelp_data/yelp_review/comprehend/yelp_reviews_comprehend_0.csv",
+    "outputBucket": "unseenstars",
+    "outputKey": "yelp_data/yelp_review/comprehend/review_sentiment_0.csv",
+    "processor": "comprehendReview"
+}

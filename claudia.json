@@ -1,0 +1,7 @@
+{
+  "lambda": {
+    "role": "unseenstars-lambda-executor",
+    "name": "unseenstars-lambda",
+    "region": "us-east-2"
+  }
+}
