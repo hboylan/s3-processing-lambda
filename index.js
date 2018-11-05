@@ -47,7 +47,6 @@ exports.handler = (event, context) => {
     console.log(JSON.stringify(event, null, 2))
     var totalLineCount = 0
     var totalProcessingCount = 0
-    var isFinished = false
 
     // create input stream from S3
     const readStream = createReadline(event.inputBucket, event.inputKey)

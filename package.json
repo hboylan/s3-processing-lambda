@@ -5,14 +5,13 @@
   "main": "index.js",
   "scripts": {
     "test": "AWS_PROFILE=unseenstars claudia test-lambda",
-    "update": "AWS_PROFILE=unseenstars claudia update --no-optional-dependencies"
+    "update": "AWS_PROFILE=unseenstars claudia update --no-optional-dependencies",
+    "map-reviews": "INPUT_FILE=~/Downloads/yelp_reviews_vegas.json OUTPUT_FILE_TXT=~/Downloads/comprehend/reviews.txt OUTPUT_FILE_CSV=~/Downloads/comprehend/reviews.csv node scripts/map_reviews"
   },
   "author": "Hugh Boylan",
   "license": "MIT",
   "optionalDependencies": {
-    "aws-sdk": "^2.346.0"
-  },
-  "dependencies": {
+    "aws-sdk": "^2.346.0",
     "line-by-line": "^0.1.6"
   }
 }
