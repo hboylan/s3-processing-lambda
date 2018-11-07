@@ -9,7 +9,7 @@ const getValidJson = str => JSON.parse(
         .replace(/False/g, 'false')
 )
 
-module.exports = function(line, lineNumber) {
+exports.process = function(line, lineNumber) {
     const json = JSON.parse(line)
     const attr = json.attributes
     const hours = json.hours

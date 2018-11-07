@@ -2,6 +2,6 @@
     "inputBucket": "unseenstars",
     "inputKey": "yelp_data/yelp_business/yelp_academic_dataset_business.json",
     "outputBucket": "unseenstars",
-    "outputKey": "yelp_data/yelp_business/yelp_business.csv",
+    "outputKey": "yelp_data/yelp_business/yelp_business_demo.csv",
     "processor": "flattenBusiness"
 }
