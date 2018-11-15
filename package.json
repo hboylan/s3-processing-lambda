@@ -1,12 +1,12 @@
 {
-  "name": "unseenstars-lambda",
+  "name": "s3-processing-lambda",
   "version": "1.0.0",
   "description": "Lambda to process yelp data for unseenstars hackathon team",
   "main": "index.js",
   "scripts": {
-    "test": "AWS_PROFILE=unseenstars claudia test-lambda",
-    "update": "AWS_PROFILE=unseenstars claudia update --no-optional-dependencies",
-    "map-reviews": "INPUT_FILE=~/Downloads/yelp_reviews_vegas.json OUTPUT_FILE_TXT=~/Downloads/comprehend/reviews.txt OUTPUT_FILE_CSV=~/Downloads/comprehend/reviews.csv node scripts/map_reviews"
+    "create": "claudia create --region us-east-1",
+    "test": "claudia test-lambda",
+    "update": "claudia update --no-optional-dependencies"
   },
   "author": "Hugh Boylan",
   "license": "MIT",
